@@ -37,7 +37,7 @@ A ideia de unir vários produtos fabricados, tendo como base a matéria prima pa
 Bem vindo a Pilar,`;
 
   return (
-    <group ref={ref} position={[0, -23, 0]}>
+    <group ref={ref} position={[0, -18, 0]}>
       <Text
         fontSize={0.35}
         maxWidth={8}
