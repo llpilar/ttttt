@@ -31,7 +31,7 @@ body {
   justify-content: center;
   align-items: center;
   background: black;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .loading-screen h1 {
@@ -39,6 +39,7 @@ body {
   font-weight: bold;
   color: white;
   letter-spacing: 0.2rem;
+  margin: 0;
 }
 
 .loading-screen button {
@@ -52,6 +53,7 @@ body {
   border-radius: 2rem;
   letter-spacing: 0.1rem;
   transition: all 0.3s ease;
+  margin-top: 1rem;
 }
 
 .loading-screen button:hover {
