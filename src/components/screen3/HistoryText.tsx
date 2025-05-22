@@ -9,9 +9,12 @@ export const HistoryText = () => {
 
   useFrame(() => {
     if (!ref.current) return;
-    const opacity = Math.min(1, Math.max(0, (scroll.offset * 5) - 1.5));
     ref.current.children.forEach((child: any) => {
+      const scrollProgress = scroll.offset * 3;
+      const opacity = Math.min(1, Math.max(0, scrollProgress - 1.8));
+      const yOffset = Math.max(0, (1 - scrollProgress) * 2);
       child.material.opacity = opacity;
+      child.position.y = yOffset;
     });
   });
 
@@ -34,12 +37,12 @@ A ideia de unir vários produtos fabricados, tendo como base a matéria prima pa
 Bem vindo a Pilar,`;
 
   return (
-    <group ref={ref} position={[0, -25, 0]}>
+    <group ref={ref} position={[0, -23, 0]}>
       <Text
-        fontSize={0.5}
-        maxWidth={10}
+        fontSize={0.35}
+        maxWidth={8}
         lineHeight={1.5}
-        letterSpacing={0.02}
+        letterSpacing={0.01}
         textAlign="justify"
         font="https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwK4vaqI.woff"
         anchorX="center"
