@@ -8,7 +8,7 @@ export const OpenerText = ({ py }: OpenerText) => {
   return (
     <group position-y={py}>
       <Text
-        fontSize={0.25}
+        fontSize={1.25}
         letterSpacing={0.005}
         position-z={0.1}
         textAlign={"left"}
@@ -16,7 +16,7 @@ export const OpenerText = ({ py }: OpenerText) => {
         anchorX="center"
         anchorY="middle"
       >
-        AN EXPERIENCE WITH SOCIAL MEDIA SUPERSTAR
+        PROCURANDO PAPÉIS?
         <meshBasicMaterial depthTest={false} />
       </Text>
       <Text
@@ -29,7 +29,7 @@ export const OpenerText = ({ py }: OpenerText) => {
         anchorX="center"
         anchorY="middle"
       >
-        KHABY LAME
+        VOCÊ ENCONTRA AQUI
         <meshBasicMaterial depthTest={false} />
       </Text>
     </group>
