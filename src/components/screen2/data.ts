@@ -1,1 +1,1 @@
-export const dataScreen2 = ["N°1", "Tiktoker", "Actor", "Icon", "Italian"];
+export const dataScreen2 = ["27 anos", "no mercado", "9 unidades", "pelo Brasil"];
