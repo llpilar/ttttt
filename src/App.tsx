@@ -1,7 +1,7 @@
-import { Scene } from "@/components/Scene";
+import { LoadingScreen } from '@/components/LoadingScreen';
 
 function App() {
-  return <Scene />;
+  return <LoadingScreen />;
 }
 
 export default App;
