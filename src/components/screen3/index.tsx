@@ -4,7 +4,6 @@ import { useRef } from 'react';
 import { SCREEN3_OFFSET_START_Y } from './constants';
 import { dataPhotos } from './dataPhotos';
 import { Photo } from './photo';
-import { HistoryText } from './HistoryText';
 import { Group } from 'three';
 
 export const Screen3 = () => {
@@ -28,7 +27,6 @@ export const Screen3 = () => {
           />
         ))}
       </group>
-      <HistoryText />
     </Scroll>
   );
 };
